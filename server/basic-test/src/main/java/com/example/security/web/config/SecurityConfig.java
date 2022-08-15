@@ -19,12 +19,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         auth.inMemoryAuthentication()
                 .withUser(User.builder()
                         .username("user")
-                        .password(passwordEncoder().encode("2222"))
+                        .password(passwordEncoder().encode("1234"))
                         .roles("USER")
                 )
                 .withUser(User.builder()
                         .username("admin")
-                        .password(passwordEncoder().encode("3333"))
+                        .password(passwordEncoder().encode("1234"))
                         .roles("ADMIN")
                 );
     }
