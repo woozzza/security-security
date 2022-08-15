@@ -1,4 +1,4 @@
-package com.example.security;
+package com.example.security.web;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

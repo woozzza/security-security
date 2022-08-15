@@ -1,0 +1,13 @@
+server:
+  port: 9090
+
+# 한명의 유저만 생성 가능
+# 따라서 WebSecurityConfigurerAdapter 를 상속한 클래스에서
+# configure(AuthenticationManagerBuilder auth) 함수 이용
+# auth.inMemoryAuthentication() 를 통해 여러 유저 생성 가능
+spring:
+  security:
+    user:
+      name: anonymous
+      password: anonymous
+      roles: USER
