@@ -1,5 +1,6 @@
 package com.example.security.web.config;
 
+import com.example.security.web.config.RequestInfo;
 import org.springframework.security.authentication.AuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 

@@ -13,5 +13,4 @@ import org.springframework.security.core.Authentication;
 public class SecurityMessage {
 
     private Authentication auth;
-    private String message;
-}
+    private String message;}
