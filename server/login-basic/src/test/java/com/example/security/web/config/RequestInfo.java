@@ -1,4 +1,4 @@
-package com.example.security.config;
+package com.example.security.web.config;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

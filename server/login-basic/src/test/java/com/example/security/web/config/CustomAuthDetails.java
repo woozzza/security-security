@@ -1,4 +1,4 @@
-package com.example.security.config;
+package com.example.security.web.config;
 
 import org.springframework.security.authentication.AuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
