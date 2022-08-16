@@ -1,0 +1,6 @@
+
+dependencies {
+    implementation("$boot:spring-boot-starter-web")
+    // comp 에 있는 common utils 하위의 클래스를 사용하기 위함
+    implementation project(":comp-common-utils")
+}
