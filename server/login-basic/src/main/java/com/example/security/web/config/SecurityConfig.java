@@ -61,6 +61,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                          * alwasyUse : false 로 지정
                          * true 인 경우, 다른 페이지에서 로그인을 하고 나면 메인 화면으로 이동함
                          */
+                        // TODO: Whitelabel Error Page 해결 (type=Not Found, status=404)
                         .defaultSuccessUrl("/", false)
                         .failureUrl("/login-error")
                         .authenticationDetailsSource(customAuthDetails)
